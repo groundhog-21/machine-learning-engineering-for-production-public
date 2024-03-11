@@ -19,7 +19,7 @@ def test_accuracy():
     assert acc > 0.9
 
 
-    def test_pipeline_and_scaler():
+def test_pipeline_and_scaler():
 
     # Check if clf is an instance of sklearn.pipeline.Pipeline 
     isPipeline = isinstance(clf, Pipeline)
